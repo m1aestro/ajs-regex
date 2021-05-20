@@ -1,0 +1,39 @@
+{
+  "name": "ajs-regex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m1aestro/ajs-regex.git"
+  },
+  "author": "m1aestro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m1aestro/ajs-regex/issues"
+  },
+  "homepage": "https://github.com/m1aestro/ajs-regex#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.2",
+    "jest": "^26.6.3",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "core-js": "^3.12.1"
+  }
+}
